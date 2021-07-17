@@ -1,0 +1,267 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: Roboto, serif;
+    margin: 72px 0 0 0;
+}
+
+body .container {
+    max-width: 956px;
+    height: 100%;
+}
+
+body .noPadding {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+header {
+    height: 72px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 0 0 16px rgba(38, 38, 38, 0.16)
+}
+
+header .row {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+header .items {
+    display: flex;
+}
+
+.button {
+    background-color: white;
+    border: 1px solid #E0E0E0;
+    color: #1D1D1D;
+    padding: 12px 18px;
+    font-size: 13px;
+    margin-right: 16px;
+}
+
+.search {
+    height: 128px;
+}
+
+.search .row {
+    height: 100%;
+    align-items: center;
+    margin: 0;
+}
+
+.search_bar input[type=search] {
+    font-size: 17px;
+    color: #626262;
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid #757575;
+    outline: none;
+}
+
+.search_bar input[type=search]::placeholder {
+    color: #626262;
+}
+
+.card {
+    margin: 0 0 32px 0;
+}
+
+.cards .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+    margin-bottom: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card_name {
+    font-size: 16px;
+	color: #1d1d1d;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.card_tags {
+    font-size: 14px;
+    color: #626262;
+    line-height: 29px;
+    margin: 0;
+    padding: 0;
+}
+.card_time {
+    font-size: 13px;
+    color: #1d1d1d;
+    line-height: 21px;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #262626;
+    color: #fff;
+}
+
+.footer_logo img {
+    padding: 56px 0 40px 0;
+}
+
+.footer_links {
+    padding: 32px 0 32px 0;
+}
+.footer_links a {
+    color: #fff;
+    font-size: 13px;
+}
+
+.social_networks p {
+    font-size: 16px;
+}
+
+.footer_list {
+    height: 116px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+}
+
+.download a {
+    margin: 40px 10px 40px 10px;
+}
+
+.policy {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.policy a {
+    color: #fff;
+    font-size: 11px;
+}
+
+hr {
+    width: 100%;
+    height: 2px;
+    background-color: orange;
+    margin: 0;
+}
+
+.language_menu {
+    height: 40px;
+    background-color: #3B3B3B;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+
+.language_menu img {
+    /* height: 100%;
+    width: 16px; */
+    padding-left: 8px;
+    padding-right: 16px;
+
+}
+
+.language_menu .language_block {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    
+}
+
+.test {
+    width: 100%;
+}
+.language_menu select {
+    /* position: absolute; */
+    font: 13px  Roboto, sans-serif;
+    width: 100%;
+    /* max-width: 90%; */
+    outline: none;
+    /* position: relative; */
+    /* bottom: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px; */
+    font: 13px  Roboto, sans-serif;
+    color: white;
+    border: none;
+    /* background-color: #3B3B3B; */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url("../img/arrow.svg") no-repeat #3B3B3B;
+    background-position: 95%;
+    background-size: 1.1em;
+
+
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    background-image: url("../img/btn-up.png");
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+/* @media (max-width: 575px) {
+    select {
+        width: 67%;
+    }
+}
+@media (min-width: 576px) {
+    select {
+        width: 82%;
+    }
+}
+@media (min-width: 768px) {
+    select {
+        width: 67%;
+    }
+}
+@media (min-width: 992px) {
+    select {
+        width: 75%;
+    }
+}
+@media (min-width: 1200px) {
+    select {
+        width: 60%;
+    }
+} */

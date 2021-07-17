@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&amp;display=swap" rel="stylesheet">
+    <script src="js/go_top.js"></script>
+    
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <img src="img/logo.svg">
+                <div class="items">
+                    <button type="button" class="button">Войти</button>
+                    <img src="img/basket.svg">
+                </div>
+            </div>          
+        </div>
+
+    </header>
+    <body>
+        <section class="search">
+            <div class="container">
+                <div class="row">
+                    <form method="GET" class="search_bar col-xs-12 noPadding">
+                        <input type="search" placeholder="Поиск по ресторанам и кухням">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="restaurants">
+            <div class="container">
+                <p>Рестораны в Москве</p>
+                <div class="cards">
+                    <div class="row">
+                        <div class="card col-lg-4 col-md-6 col-xs-12">
+                            <img src="img/McDonalds.png">
+                            <p class="card_name"><a href="">Макдоналдс — Газетный</a></p>
+                            <p class="card_tags">₽₽ • Бургеры</p>
+                            <p class="card_time">25 - 35 мин</p>
+                        </div>
+                        <div class="card col-lg-4 col-md-6 col-xs-12">
+                            <img src="img/DimSum.png">
+                            <p class="card_name"><a href="">DimSum & Co - ЦДМ</a>
+                            <p class="card_tags">₽ • Японская • Китайская • Азиатская</p>
+                            <p class="card_time">40 - 50 мин</p>
+                        </div>
+                        <div class="card col-lg-4 col-md-6 col-xs-12">
+                            <img src="img/DvigOK.png">
+                            <p class="card_name"><a href="">ДвижОК - Манежная</a></p>
+                            <p class="card_tags">₽ • Американская • Европейская</p>
+                            <p class="card_time">35 - 45 мин</p>
+                        </div>
+                        <div class="card col-lg-4 col-md-6 col-xs-12">
+                            <img src="img/NyaNha.png">
+                            <p class="card_name"><a href="">NЯ NHA</a>
+                            <p class="card_tags">₽₽ • Вьетнамская</p>
+                            <p class="card_time">30 - 40 мин</p>
+                        </div>
+
+                        <div class="card col-lg-4 col-md-6 col-xs-12">
+                            <img src="img/TochkaDzi.png">
+                            <p class="card_name"><a href="">Точка Дзы - Цветной</a>
+                            <p class="card_tags">₽₽ • Вьетнамская</p>
+                            <p class="card_time">40 - 50 мин</p>
+                        </div>
+                        <div class="card col-lg-4 col-md-6 col-xs-12">
+                            <img src="img/cinnabon.png">
+                            <p class="card_name"><a href="">Cinnabon</a>
+                            <p class="card_tags">₽ • Выпечка • Десерты • Капкейки</p>
+                            <p class="card_time">25 - 35 мин</p>
+                        </div>
+                        <div class="card col-lg-4 col-md-6 col-xs-12">
+                            <img src="img/pizzelove.png">
+                            <p class="card_name"><a href="">PIZZELOVE</a>
+                            <p class="card_tags">₽₽ • Пицца</p>
+                            <p class="card_time">15 - 25 мин</p>
+                        </div>
+                        <div class="card col-lg-4 col-md-6 col-xs-12">
+                            <img src="img/Zu.png">
+                            <p class="card_name"><a href="">Zю кафе - Тверская</a>
+                            <p class="card_tags">₽₽ • Японская</p>
+                            <p class="card_time">25 - 35 мин</p>
+                        </div>
+                        <div class="card col-lg-4 col-md-6 col-xs-12">
+                            <img src="img/BarBQ.png">
+                            <p class="card_name"><a href="">Bar BQ Cafe - Манежная</a>
+                            <p class="card_tags">₽₽₽ • Европейская</p>
+                            <p class="card_time">30 - 40 мин</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </body>
+    <footer>
+        <div class="container">
+            <section class="footer_logo">
+                <img src="img/white-logo.svg">
+                
+            </section>
+            <hr>
+            <section class="row footer_links">
+                <div class="footer1 col-lg-4 col-md-4 col-xs-12">
+                    <div class="language_menu col-lg-8 col-md-9 col-xs-7">
+                        <img src="img/world.svg">
+                        <select name="language" id="language">
+                            <option value="ru" selected="selected">Русский</option>
+                            <option value="en">Английский</option>
+                        </select>
+                    </div>
+                    <div class="social_networks">
+                        <p><span style="color: #49A144;">#</span>UberEats</p>
+                        <div class="network-icons">
+                            <a href=""><img src="img/facebook.svg"></a>
+                            <a href=""><img src="img/twitter.svg"></a>
+                            <a href=""><img src="img/instagram.svg"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer2 col-lg-4 col-md-4 col-xs-12">
+                    <ul class="footer_list">
+                        <li><a href="">Об UberEats</a></li>
+                        <li><a href="">Станьте партнёром по доставке</a></li>
+                        <li><a href="">Станьте парнёром-рестораном</a></li>
+                    </ul>      
+                </div>
+                <div class="footer3 col-lg-4 col-md-4 col-xs-12">
+                    <ul class="footer_list">
+                        <li><a href="">Все города</a></li>
+                        <li><a href="">Цены</a></li>
+                        <li><a href="">Помощь</a></li>
+                        <li><a href="">FAQs</a></li>
+                    </ul>
+                </div>
+                
+            </section>
+            <hr>
+            <section class="download">
+                
+                <a href=""><img src="img/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.png"></a>
+                <a href=""><img src="img/en_badge_web_generic-cf6dad406f.png"></a>
+                
+            </section>
+            <hr>
+            <section class="row policy">
+                <div class="footer2 col-lg-4 col-md-4 col-xs-12">
+                    <a href="">© 2017 Uber Technologies Inc.</a>
+                </div>
+                <div class="footer2 col-lg-4 col-md-4 col-xs-12">
+                    <a href="">Обработка персональных данных</a>
+                </div>
+                <div class="footer2 col-lg-4 col-md-4 col-xs-12">
+                    <a href="">Пользовательское соглашение</a>
+                </div>
+            </section>
+        </div> 
+
+    </footer>
+    <button onclick="topFunction()" id="myBtn" title="Наверх">Test</button>
+    
+</body>
+</html>
